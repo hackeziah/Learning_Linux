@@ -1,0 +1,39 @@
+Cat and PATH/ => to read files
+pwd => to now location
+ls => for DIR list (ls -l => wait list with) (ls -a => wait Hidden files)  
+clear => for cls 
+cd.. => move back one dir
+cd => for home 
+mkdir (name) => MakeDirectory
+rmdir (name) => remove Directory 
+touch File => create File 
+rm => (remove)
+cp (Name) (Name2) =>copy a file 
+mv (Name of File) Path/  => Move File
+mv (Name) (new Name) => rename the FILE
+
+SEARCHING AND CAMPARING FILE
+grep (name you want to search) (File name)
+diff (File1) (File2)= comparing file 
+
+passwd => Change password
+info => Infomation of command can be use in it 
+
+file of path > Name  for append path (>>)
+
+PERMISSION 
+- => for file
+d => directory
+ 
+2,1,4 => 
+u - user 
+g - group 
+o - (from other)
+
+4 - "READ"
+2 - "WRITE"
+1 - "EXECUTE"
+0 - "NO PERMISSION"
+
+cmod 777 (file name)
+cmod o+w (FILE)
