@@ -37,3 +37,91 @@ o - (from other)
 
 cmod 777 (file name)
 cmod o+w (FILE)
+
+SSH - Security Shell
+SHA - 
+sha1sum FileName
+
+compare file => | grep (pattern) (pattern1) 
+
+COMPRESS AND EXTRACT FILE (ZIP)
+gzip (PATH) => ZipFile ("use for space \")
+gunzip (PATH File) => Extract 
+tar cvf (Name.tar) (PATH of File) => TAR (Create,View,File)
+tar xvf (Name.tar) =>Extract File 
+
+INSTALL APPLICATION
+(sudo for admin)
+sudo apt-get update
+sudo apt-get install python3 =>installig 
+bash (.sh FILE)=>run program (go to bin folder) 
+
+CREATE ACCOUNT (Users) => User privileges
+sudo useradd (username) add new users
+sudo passwd (username) 
+
+GROUP'S IN USERS 
+sudo groupadd (Name of Groups)
+sudo usermod -a(add) -G (add another group) -g(change the primary group)
+sudo usermod -a -G (name of group) (user to add)
+sudo userdel (users) => delete 
+
+SSH (Setup SSH Connect Server) SSHHHHHHHHHHHH (appply First in Digital Ocean)
+ssh (username)@IP Address 
+Example: ssh root@456.565.767.198
+
+SSH Authentications 
+private key => personal 
+public key => server public
+
+ssh-keygen -t rsa to generate 
+ssh-copy-id root@IP Add
+
+Disable Pasword 
+nano /etc/ssh/sshd_config => Config the permission of SSH (-without password)
+
+SFTP 
+put (PATH FILE)
+get => to download
+
+Partitions 
+sudo apt-get install gparted 
+
+COMMANDS
+#!/bin/sh
+# =>comments
+ps
+kill (process ID) => killing Jobs Process
+ 
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+  
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
