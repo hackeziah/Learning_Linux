@@ -1,6 +1,11 @@
 Cat and PATH/ => to read files
 pwd => to now location
 ls => for DIR list (ls -l => wait list with) (ls -a => wait Hidden files)  
+ls -a => Hidden Files
+ls -l => perform detailed listing 
+ls -R => with subdirectories 
+ls -F => with file TYPE
+* => zero and more prefix suffix 
 clear => for cls 
 cd.. => move back one dir
 cd => for home 
@@ -92,7 +97,12 @@ COMMANDS
 # =>comments
 ps
 kill (process ID) => killing Jobs Process
- 
+
+man => Manual use for help 
+commnad: man -k hostname 
+
+date => detail daate
+date who => with owner 
 
 
 
